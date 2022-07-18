@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>고1 통합과학 물리 계산</title>
+    <link rel="icon" href="./image/bansonghighschool_logo.jpg" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&family=Jua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="./acceleration_velocity/acceleration_velocity.css" />
+    <script src="./acceleration_velocity/acceleration_velocity.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <ul id="nav">
+        <li>
+          <a>속력과 속도</a>
+          <ul>
+            <li><a href="./speed.html">속력</a></li>
+            <li><a href="./velocity.html">속도</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>가속도</a>
+          <ul>
+            <li><a href="./acceleration_velocity.html">속도</a></li>
+            <li><a href="./acceleration_force.html">힘</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>등속 직선 운동</a>
+          <ul>
+            <li><a href="./equivalent_distance.html">이동 거리</a></li>
+            <li><a href="./equivalent_velocity.html">나중 속도</a></li>
+            <li><a href="./equivalent_space.html">변위</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>운동량과 충격량</a>
+          <ul>
+            <li><a href="./momentum.html">운동량</a></li>
+            <li><a href="./impulse.html">충격량</a></li>
+          </ul>
+        </li>
+      </ul>
+    <div id="root">
+        <div class="start">속도를 이용한 가속도 계산</div>
+        <h3 class="explain">물체의 속도가 시간에 따라 변하는 정도</h3>
+        <!-- <section class="result"> -->
+        <p class="result" id="result"></p>
+      <!-- </section> -->
+      </header>
+      <div>
+      <footer>
+          <form class="all_input">
+        처음 속도 : <input type="text" class="input" name="firstVelocity" id="firstVelocity" placeholder="처음 속도를 입력해주세요" />m/s</br>
+        나중 속도 : <input type="text" class="input" name="laterVelocity" id="laterVelocity" placeholder="나중 속도을 입력해주세요" />m/s</br>
+        걸린 시간 : <input type="text" class="input" name="time" id="time" placeholder="걸린 시간을 입력해주세요" />s
+      </form> 
+      <div><button class="resultbutton" id="resultbutton">결과</button></div>
+      </footer>
+    </div>
+  </body>
+</html>
